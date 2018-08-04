@@ -116,8 +116,14 @@ Examples for the [truncated cuboctahedron](https://en.wikipedia.org/wiki/Truncat
 
 <table>
   <tr>
-    <td width="25%"><img src="http://paste.watchduck.net/1804/ball-and-stick_truncuboct_triangles.png"/>
-    <td width="25%"><img src="http://paste.watchduck.net/1804/ball-and-stick_truncuboct.png"/>
+    <td width="25%">
+        <a href="https://commons.wikimedia.org/wiki/File:Truncated_cuboctahedron,_ball-and-stick,_triangles.png">
+            <img src="http://paste.watchduck.net/1804/ball-and-stick_truncuboct_triangles.png"/>
+        </a>
+    <td width="25%">
+        <a href="https://commons.wikimedia.org/wiki/File:Truncated_cuboctahedron,_ball-and-stick.png">
+            <img src="http://paste.watchduck.net/1804/ball-and-stick_truncuboct.png"/>
+        </a>
     <td width="25%"><img src="http://paste.watchduck.net/1804/console_truncuboct.png"/>
     <td width="25%"><img src="http://paste.watchduck.net/1804/davinci_truncuboct.png"/>
   <tr>
@@ -207,7 +213,7 @@ The finished POV-Ray files are in
 
 This code was used to create renderings of wooden polyhedra similar to drawings by Leonardo da Vinci.
 The POV-Ray functions used to create them are in
-[`povray_includes`](https://github.com/watchduck/convex_polyhedra/tree/master/povray_includes)
+[**`povray_includes`**](https://github.com/watchduck/convex_polyhedra/tree/master/povray_includes)
 , along with more documentation.
 
 In
