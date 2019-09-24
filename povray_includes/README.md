@@ -105,6 +105,8 @@ In the image on the right the vector is the yellow point and the angle is 72°.
 The rotated object is the red point, which was initially at the location of the blue point.
 (<a href="https://github.com/watchduck/convex_polyhedra/blob/master/povray_includes/examples/RotMatFromVectorAndAngle.pov">source</a>)
 
+[This image](https://commons.wikimedia.org/wiki/File:Compound_of_five_cubes,_gray_and_rgby.png) of the compound of five cubes is created by rotating one of the cubes. ([source](https://github.com/watchduck/convex_polyhedra/blob/master/2b_colors_png/finished_pov/8/compound_of_five_cubes.pov))
+
 ### `SolidPrismFromVerticesOfPolygon`
 
 [`SolidPrismFromVerticesOfPolygon`](https://github.com/watchduck/convex_polyhedra/blob/master/povray_includes/SolidPrismFromVerticesOfPolygon.inc)
