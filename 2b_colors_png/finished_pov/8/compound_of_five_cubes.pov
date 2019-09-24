@@ -77,6 +77,8 @@ global_settings { assumed_gamma 1 }
 	}
 #end
 
+
+// black vertices for main cube
 #for( Index, 0, 7 )
 	sphere{ 
 		P[Index], RadVert+.001 
