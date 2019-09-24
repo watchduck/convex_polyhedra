@@ -58,6 +58,7 @@ global_settings { assumed_gamma 1 }
 #declare PRotNorm = vnormalize(PRot);
 #declare Fifth = 2*pi/5;
 
+
 // show rotated cubes
 #for (Times, 0, 4)
 	object{
