@@ -1,3 +1,5 @@
+// https://commons.wikimedia.org/wiki/File:Compound_of_five_cubes,_gray_and_rgby.png
+
 #include "RotMatFromVectorAndAngle.inc"
 #include "polyhedra_colors.inc"
 global_settings { assumed_gamma 1 }
@@ -40,7 +42,7 @@ global_settings { assumed_gamma 1 }
 }
 
 
-// momochrome colors
+// monochrome colors
 #declare MyBlack = srgb .22;
 #declare MyGray = srgb .5;
 #declare MyWhite = srgb .9;
