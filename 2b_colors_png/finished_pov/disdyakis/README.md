@@ -70,3 +70,26 @@ uses code from
   </td>
 </tr>
 </table>
+
+The orthographic projections from different axes have not (as in the older project) been done by putting the camera on that axis, but by putting the camera in front, and rotating the object using [`RotateDirOnDir.inc`](https://github.com/watchduck/polyhedron_skeletons/blob/master/pov_macros/RotateDirOnDir.inc). This way the light in these files looks the same.
+
+<table>
+  <tr>
+    <td>
+        <a href="https://commons.wikimedia.org/wiki/File:Disdyakis_30_spherical_from_yellow.png">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Disdyakis_30_spherical_from_yellow.png/240px-Disdyakis_30_spherical_from_yellow.png"/>
+        </a>
+    </td>
+    <td>
+        <a href="https://commons.wikimedia.org/wiki/File:Disdyakis_30_spherical_from_red.png">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Disdyakis_30_spherical_from_red.png/240px-Disdyakis_30_spherical_from_red.png"/>
+        </a>
+    </td>
+  </tr>
+</table>
+
+For these two views the object has been rotated using<br>
+`RotateDirOnDir(<1,1,-1>, front) rotate 22.695*z` and `RotateDirOnDir(icosa6, front)`<br>
+with `front` = `<0,0,-1>` and `icosa6` = `<0, 1, -(1/2 + sqrt(5)/2)>` (same as `PRot` in [`12-20_spherical_colored.pov`](https://github.com/watchduck/convex_polyhedra/blob/master/2b_colors_png/finished_pov/disdyakis/12-20_spherical_colored.pov)).<br>
+This has been done in [footer.inc](https://github.com/watchduck/convex_polyhedra/blob/master/2b_colors_png/finished_pov/disdyakis/footer.inc).
+Also the `rotate clock/2 * y` for the animations was used there.
