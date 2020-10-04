@@ -7,14 +7,13 @@
 #declare Circle = torus{ 
 	RadSphere, RadEdge
 }
-#declare OctaRadVert = RadVert*1.3;
 #declare Octahedron = union{
 	object{Circle}
 	object{Circle  rotate 90*x  }
 	object{Circle  rotate 90*z  }
-	sphere{RadSphere*x, OctaRadVert} sphere{RadSphere*-x, OctaRadVert}
-	sphere{RadSphere*y, OctaRadVert} sphere{RadSphere*-y, OctaRadVert}
-	sphere{RadSphere*z, OctaRadVert} sphere{RadSphere*-z, OctaRadVert}
+	sphere{RadSphere*x, BigRadVert} sphere{RadSphere*-x, BigRadVert}
+	sphere{RadSphere*y, BigRadVert} sphere{RadSphere*-y, BigRadVert}
+	sphere{RadSphere*z, BigRadVert} sphere{RadSphere*-z, BigRadVert}
 }
 
 #declare PRot = <0, 1, -(1/2 + sqrt(5)/2)>;  // icosahedron point 6

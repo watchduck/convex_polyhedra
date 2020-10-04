@@ -27,6 +27,8 @@ sky_sphere{ pigment{ White } }
 ///////////////////////////// sizes
 
 #declare RadVert = .12;
+#declare BigRadVert = RadVert*1.3;  // used in spherical colored
+
 #declare RadEdge = .045;
 
 #declare RadSphere = 4.7;
