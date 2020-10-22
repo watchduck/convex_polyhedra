@@ -1,11 +1,12 @@
 #include "header.inc"
 
-#declare FactorVariants = array[5]{
+#declare FactorVariants = array[6]{
 	1.0596,  // 0  disdyakis
 	1.05,  // 1  rhombic triaconta
 	1.05,  // 2  dodeca
 	1.05,  // 3  icosa
-	1.10715  // 4  deltoidal
+	1.10715,  // 4  deltoidal
+	1.05  // 5  pyritohedral
 }
 #declare Factor = 1.1*FactorVariants[VariantIndex];
 
@@ -22,7 +23,8 @@
 	(15/11 + 12*sqrt(5)/11)*Factor
 }
 
-// declare factors used in 'ModifiedP' based on VariantIndex
+// declare factors used in P (included from '12-20_points.inc') based on VariantIndex
+#declare PyritFactor = 1;
 #if (VariantIndex = 0)  // disdyakis triaconta
 	#declare BlueFactor = 1;
 	#declare RedFactor = 1;
@@ -47,6 +49,12 @@
 	#declare BlueFactor = 1;
 	#declare RedFactor = 5/33 * (4 + sqrt(5));
 	#declare YellowFactor = 3/121 * (21 + 8*sqrt(5));
+#end
+#if (VariantIndex = 5)  // pyritohedral (based on icosa)
+	#declare BlueFactor = sqrt(5)/2 - 1/6;
+	#declare RedFactor = (5 * sqrt(5) - 5) / 6;
+	#declare YellowFactor = 1/2 + sqrt(5)/6;
+	#declare PyritFactor = 3 / sqrt(5);
 #end
 
 #include "12-20_points.inc"
@@ -125,6 +133,9 @@
 	#end
 	#if (VariantIndex = 4)  // deltoidal hexeconta
 		#include "12-20_deltoidal.inc"
+	#end
+	#if (VariantIndex = 5)  // pyritohedron
+		#include "12-20_pyrit.inc"
 	#end
 }
 

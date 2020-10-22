@@ -8,10 +8,10 @@
 	<-Abs[6],-Abs[3],Abs[1]>*BlueFactor,  // 6 blue
 	<-Abs[6],Abs[3],-Abs[1]>*BlueFactor,  // 7 blue
 	<-Abs[6],Abs[3],Abs[1]>*BlueFactor,  // 8 blue
-	<-Abs[5],-Abs[5],-Abs[5]>*YellowFactor,  // 9 yellow
-	<-Abs[5],-Abs[5],Abs[5]>*YellowFactor,  // 10 yellow
-	<-Abs[5],Abs[5],-Abs[5]>*YellowFactor,  // 11 yellow
-	<-Abs[5],Abs[5],Abs[5]>*YellowFactor,  // 12 yellow
+	<-Abs[5],-Abs[5],-Abs[5]>*YellowFactor*PyritFactor,  // 9 yellow
+	<-Abs[5],-Abs[5],Abs[5]>*YellowFactor*PyritFactor,  // 10 yellow
+	<-Abs[5],Abs[5],-Abs[5]>*YellowFactor*PyritFactor,  // 11 yellow
+	<-Abs[5],Abs[5],Abs[5]>*YellowFactor*PyritFactor,  // 12 yellow
 	<-Abs[4],-Abs[7],Abs[0]>*RedFactor,  // 13 red
 	<-Abs[4],Abs[7],Abs[0]>*RedFactor,  // 14 red
 	<-Abs[3],-Abs[1],-Abs[6]>*BlueFactor,  // 15 blue
@@ -48,10 +48,10 @@
 	<Abs[3],Abs[1],Abs[6]>*BlueFactor,  // 46 blue
 	<Abs[4],-Abs[7],Abs[0]>*RedFactor,  // 47 red
 	<Abs[4],Abs[7],Abs[0]>*RedFactor,  // 48 red
-	<Abs[5],-Abs[5],-Abs[5]>*YellowFactor,  // 49 yellow
-	<Abs[5],-Abs[5],Abs[5]>*YellowFactor,  // 50 yellow
-	<Abs[5],Abs[5],-Abs[5]>*YellowFactor,  // 51 yellow
-	<Abs[5],Abs[5],Abs[5]>*YellowFactor,  // 52 yellow
+	<Abs[5],-Abs[5],-Abs[5]>*YellowFactor*PyritFactor,  // 49 yellow
+	<Abs[5],-Abs[5],Abs[5]>*YellowFactor*PyritFactor,  // 50 yellow
+	<Abs[5],Abs[5],-Abs[5]>*YellowFactor*PyritFactor,  // 51 yellow
+	<Abs[5],Abs[5],Abs[5]>*YellowFactor*PyritFactor,  // 52 yellow
 	<Abs[6],-Abs[3],-Abs[1]>*BlueFactor,  // 53 blue
 	<Abs[6],-Abs[3],Abs[1]>*BlueFactor,  // 54 blue
 	<Abs[6],Abs[3],-Abs[1]>*BlueFactor,  // 55 blue

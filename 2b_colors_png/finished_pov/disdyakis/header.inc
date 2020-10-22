@@ -6,7 +6,7 @@ global_settings { assumed_gamma 1.0 }
 #include "math.inc"
 #include "textures.inc"
 
-#declare VariantIndex = 0;  // 0 disdyakis, 1 rhombic, 2 platonic (like cube), 3 platonic (like octahedron), 4 deltoidal
+#declare VariantIndex = 5;  // 0 disdyakis, 1 rhombic, 2 platonic (like cube), 3 platonic (like octahedron), 4 deltoidal
 
 ///////////////////////////// camera and light
 
