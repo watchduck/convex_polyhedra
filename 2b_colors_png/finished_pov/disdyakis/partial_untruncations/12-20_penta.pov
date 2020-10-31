@@ -10,7 +10,7 @@
 	#declare TFace = TDarkbrown;
 	#declare TVertex = TLightbrown;
 #end
-#declare Vestiges = 1;  // edges and blue vertices of tetrakis cube
+#declare Vestiges = 1;  // edges and blue vertices of disdyakis triacontahedron
 
 #declare Factor = 1.1*1.0596;
 
