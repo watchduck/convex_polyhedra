@@ -55,5 +55,5 @@
 
 object{ Unit 	
 	//RotateDirOnDir(<1, 1, -1>, <0, 0, -1>)  rotate 165*z  // from yellow
-	RotateDirOnDir(<-1, 1, -1>, <0, 0, -1>)  rotate 75*z  // from green
+	//RotateDirOnDir(<-1, 1, -1>, <0, 0, -1>)  rotate 75*z  // from green
 }
