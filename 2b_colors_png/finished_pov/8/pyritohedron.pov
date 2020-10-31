@@ -17,45 +17,52 @@
 #declare UncoloredFaces = array[12]{array[6]{8, 2, 0, 3, 9, 8}, array[6]{12, 14, 18, 19, 16, 12}, array[6]{7, 13, 17, 11, 5, 7}, array[6]{1, 0, 2, 6, 4, 1}, array[6]{15, 9, 8, 14, 18, 15}, array[6]{19, 17, 11, 10, 16, 19}, array[6]{10, 4, 6, 12, 16, 10}, array[6]{8, 2, 6, 12, 14, 8}, array[6]{15, 9, 3, 7, 13, 15}, array[6]{15, 18, 19, 17, 13, 15}, array[6]{1, 4, 10, 11, 5, 1}, array[6]{3, 0, 1, 5, 7, 3}};
 
 
+union{
+	union{
+		#for( Index, 0, dimension_size(YellowVertices, 1) - 1 )
+		    sphere{ P[YellowVertices[Index]], RadVert }
+		#end
+		texture{ TYellow }
+	}
+	union{
+		#for( Index, 0, dimension_size(UncoloredVertices, 1) - 1 )
+		    sphere{ P[UncoloredVertices[Index]], RadVert }
+		#end
+		texture{ TLightgray }
+	}
+
+	union{
+		#for( Index, 0, dimension_size(RedEdges, 1) - 1 )
+		    #local EdgeArray = RedEdges[Index];
+		    cylinder{ P[EdgeArray[0]], P[EdgeArray[1]], RadEdge }
+		#end
+		texture{ TRed }
+	}
+	union{
+		#for( Index, 0, dimension_size(UncoloredEdges, 1) - 1 )
+		    #local EdgeArray = UncoloredEdges[Index];
+		    cylinder{ P[EdgeArray[0]], P[EdgeArray[1]], RadEdge }
+		#end
+		texture{ TGray }
+	}
+
+	union{
+		#for( Index, 0, dimension_size(UncoloredFaces, 1) - 1 )
+		    #local FaceArray = UncoloredFaces[Index];
+		    #local LenOfFaceArray = dimension_size(FaceArray, 1);
+		    polygon{ LenOfFaceArray,
+		        #for(VertexIndexInFace, 0, LenOfFaceArray-1)
+		            P[FaceArray[VertexIndexInFace]]
+		        #end
+		    }
+		#end
+		texture{ TFaceTransp }
+	}
+	rotate clock/2 * y
+}
 
 
-union{
-    #for( Index, 0, dimension_size(YellowVertices, 1) - 1 )
-        sphere{ P[YellowVertices[Index]], RadVert }
-    #end
-    texture{ TYellow }
-}
-union{
-    #for( Index, 0, dimension_size(UncoloredVertices, 1) - 1 )
-        sphere{ P[UncoloredVertices[Index]], RadVert }
-    #end
-    texture{ TLightgray }
-}
-
-union{
-    #for( Index, 0, dimension_size(RedEdges, 1) - 1 )
-        #local EdgeArray = RedEdges[Index];
-        cylinder{ P[EdgeArray[0]], P[EdgeArray[1]], RadEdge }
-    #end
-    texture{ TRed }
-}
-union{
-    #for( Index, 0, dimension_size(UncoloredEdges, 1) - 1 )
-        #local EdgeArray = UncoloredEdges[Index];
-        cylinder{ P[EdgeArray[0]], P[EdgeArray[1]], RadEdge }
-    #end
-    texture{ TGray }
-}
-
-union{
-    #for( Index, 0, dimension_size(UncoloredFaces, 1) - 1 )
-        #local FaceArray = UncoloredFaces[Index];
-        #local LenOfFaceArray = dimension_size(FaceArray, 1);
-        polygon{ LenOfFaceArray,
-            #for(VertexIndexInFace, 0, LenOfFaceArray-1)
-                P[FaceArray[VertexIndexInFace]]
-            #end
-        }
-    #end
-    texture{ TLightblue }
-}
+/*
+for i in $(seq -f "%03g" 0 359); do povray pyritohedron.pov Height=550 Width=550 -D -k$i -O$i; done
+for i in $(seq -f "%03g" 0 359); do convert $i.png -crop 508x495+20+32 +repage $i.png; done
+*/

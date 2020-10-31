@@ -1,4 +1,4 @@
-// header for the envelope variants and spherical polyhedra
+// header for the partial untruncations
 
 #version 3.6;
 global_settings { assumed_gamma 1.0 }
@@ -7,8 +7,6 @@ global_settings { assumed_gamma 1.0 }
 #include "colors.inc"
 #include "math.inc"
 #include "textures.inc"
-
-#declare VariantIndex = 0;  // 0 disdyakis, 1 rhombic, 2 platonic (like cube), 3 platonic (like octahedron), 4 deltoidal
 
 ///////////////////////////// camera and light
 
@@ -28,8 +26,7 @@ sky_sphere{ pigment{ White } }
 
 ///////////////////////////// sizes
 
-#declare RadVert = .12;
-#declare BigRadVert = RadVert*1.3;  // used in spherical colored
+#declare RadVert = 1.2*.12;
 
 #declare RadEdge = .045;
 
@@ -41,16 +38,17 @@ sky_sphere{ pigment{ White } }
 #declare TRed =  texture{ pigment{color srgb<255,40,40>/255} };
 #declare TBlue = texture{ pigment{color srgb<50,100,220>/255} };
 #declare TYellow = texture{ pigment{color srgb<255,190,0>/255} };
-#declare TGray = texture{ pigment{color srgb .5} };
 
 #declare TDarkbrown = texture{ pigment{color srgb<219,179,142>/255} };
 #declare TLightbrown = texture{ pigment{color srgb<245,234,223>/255} };
+
+#declare TLightblue = texture{ pigment{color rgb<.5, .5, .8>} };
+
+#declare TGray = texture{ pigment{color srgb .5} };
 
 #declare TSphere = texture{ pigment{color rgbt<1, 1, 1, .4>} }
 
 
 /* run
-povray 4-4.pov +ua +fn Height=4000 Width=4000
-povray 6-8_spherical.pov +ua +fn Height=4000 Width=4000
-povray 12-20_spherical_colored.pov +ua +fn Height=4000 Width=4000
+povray 6-8_disdyakis.pov +ua +fn Height=4000 Width=4000
 */
