@@ -43,9 +43,9 @@ The face normal points used to create the solids come from the method
 
 <table>
     <tr>
-        <td><img width="300" src="http://paste.watchduck.net/1804/davinci_cube.png"/>
-        <td><img width="300" src="http://paste.watchduck.net/1804/davinci_tetrahedron.png"/>
-        <td><img width="300" src="http://paste.watchduck.net/1804/davinci_truncuboct.png"/>
+        <td><img width="300" src="../.img/davinci_cube.png"/>
+        <td><img width="300" src="../.img/davinci_tetrahedron.png"/>
+        <td><img width="300" src="../.img/davinci_truncuboct.png"/>
     <tr>
         <td>(<a href="https://github.com/watchduck/convex_polyhedra/blob/master/povray_includes/examples/davinci_cube.pov">source</a>)
         <td>(<a href="https://github.com/watchduck/convex_polyhedra/blob/master/povray_includes/examples/davinci_tetrahedron.pov">source</a>)
@@ -78,10 +78,10 @@ requiring `RotMatFromVectorAndAngle` for the rotation.
 
 <table>
     <tr>
-        <td><img width="200" src="http://paste.watchduck.net/1804/PointCutter_offset_0.png"/>
-        <td><img width="200" src="http://paste.watchduck.net/1804/PointCutter_offset_0.5.png"/>
-        <td><img width="200" src="http://paste.watchduck.net/1804/SolidFromFaceNormalPoints_offset_0.png"/>
-        <td><img width="200" src="http://paste.watchduck.net/1804/SolidFromFaceNormalPoints_offset_0.5.png"/>
+        <td><img width="200" src="../.img/PointCutter_offset_0.png"/>
+        <td><img width="200" src="../.img/PointCutter_offset_0.5.png"/>
+        <td><img width="200" src="../.img/SolidFromFaceNormalPoints_offset_0.png"/>
+        <td><img width="200" src="../.img/SolidFromFaceNormalPoints_offset_0.5.png"/>
 <tr>
         <td colspan="4">
             Examples of <code>PointCutter</code>
@@ -93,7 +93,7 @@ requiring `RotMatFromVectorAndAngle` for the rotation.
 
 ### `RotMatFromVectorAndAngle`
 
-<img align="right" width="200" src="http://paste.watchduck.net/1804/RotMatFromVectorAndAngle.png"/>
+<img align="right" width="200" src="../.img/RotMatFromVectorAndAngle.png"/>
 
 [`RotMatFromVectorAndAngle`](https://github.com/watchduck/convex_polyhedra/blob/master/povray_includes/RotMatFromVectorAndAngle.inc)
 takes a point and an angle and can be used to rotate
@@ -132,10 +132,10 @@ and cuts the halfspace defined by that point away from the cylinder using `Point
 
 <table>
     <tr>
-        <td><img width="200" src="http://paste.watchduck.net/1804/SolidPrismFromVerticesOfPolygonContainingOrigin_offset_0.png"/>
-        <td><img width="200" src="http://paste.watchduck.net/1804/SolidPrismFromVerticesOfPolygonContainingOrigin_offset_0.5.png"/>
-        <td><img width="200" src="http://paste.watchduck.net/1804/SolidPrismFromVerticesOfPolygon_offset_0.png"/>
-        <td><img width="200" src="http://paste.watchduck.net/1804/SolidPrismFromVerticesOfPolygon_offset_0.5.png"/>
+        <td><img width="200" src="../.img/SolidPrismFromVerticesOfPolygonContainingOrigin_offset_0.png"/>
+        <td><img width="200" src="../.img/SolidPrismFromVerticesOfPolygonContainingOrigin_offset_0.5.png"/>
+        <td><img width="200" src="../.img/SolidPrismFromVerticesOfPolygon_offset_0.png"/>
+        <td><img width="200" src="../.img/SolidPrismFromVerticesOfPolygon_offset_0.5.png"/>
     <tr>
         <td colspan="4">
             Examples of <code>SolidPrismFromVerticesOfPolygonContainingOrigin</code>
@@ -150,7 +150,7 @@ and cuts the halfspace defined by that point away from the cylinder using `Point
 ### `MovePolygonEdges`
 
 <a href="https://commons.wikimedia.org/wiki/File:Polyhedron_12-20,_davinci.png">
-  <img align="right" width="200" src="http://paste.watchduck.net/1804/Polyhedron_12-20,_davinci_detail.png"/>
+  <img align="right" width="200" src="../.img/Polyhedron_12-20,_davinci_detail.png"/>
 </a>
 
 The little frames around the tranparent faces are created with
@@ -169,8 +169,8 @@ moved inwards by the offset. The calculation is based on the geometry of the rho
 
 <table>
     <tr>
-        <td><img width="460" src="http://paste.watchduck.net/1804/MoveLineIntersectionByLineOffset.png"/>
-        <td><img width="460" src="http://paste.watchduck.net/1804/MovePolygonEdges.png"/>
+        <td><img width="460" src="../.img/MoveLineIntersectionByLineOffset.png"/>
+        <td><img width="460" src="../.img/MovePolygonEdges.png"/>
     <tr>
         <td colspan="2">
             Examples for <code>MoveLineIntersectionByLineOffset</code>

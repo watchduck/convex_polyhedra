@@ -11,44 +11,44 @@ Most calculations are done in Python, and the raytracing is done with
   <tr>
     <td width="25%">
       <a href="https://commons.wikimedia.org/wiki/File:Polyhedron_6-8,_davinci.png">
-        <img width="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Polyhedron_6-8%2C_davinci.png/501px-Polyhedron_6-8%2C_davinci.png"/>
+        <img width="" src=".img/Polyhedron_6-8,_davinci.png"/>
       </a>
     </td>
     <td width="25%">
       <a href="https://commons.wikimedia.org/wiki/File:Polyhedron_6-8_max.png">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Polyhedron_6-8_max.png/502px-Polyhedron_6-8_max.png"/>
+        <img src=".img/Polyhedron_6-8_max.png"/>
       </a>
     </td>
     <td width="25%">
       <a href="https://commons.wikimedia.org/wiki/File:Polyhedron_6-8_dual_blue.png">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Polyhedron_6-8_dual_blue.png/480px-Polyhedron_6-8_dual_blue.png"/>
+        <img src=".img/Polyhedron_6-8_dual_blue.png"/>
       </a>
     </td>
     <td width="25%">
       <a href="https://commons.wikimedia.org/wiki/File:Dual_compound_6-8_max.png">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Dual_compound_6-8_max.png/472px-Dual_compound_6-8_max.png"/>
+        <img src=".img/Dual_compound_6-8_max.png"/>
       </a>
     </td>
   </tr>
   <tr>
     <td>
       <a href="https://commons.wikimedia.org/wiki/File:Polyhedron_truncated_20,_davinci.png">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Polyhedron_truncated_20%2C_davinci.png/490px-Polyhedron_truncated_20%2C_davinci.png"/>
+        <img src=".img/Polyhedron_truncated_20,_davinci.png"/>
       </a>
     </td>
     <td>
       <a href="https://commons.wikimedia.org/wiki/File:Polyhedron_truncated_20_max.png">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Polyhedron_truncated_20_max.png/493px-Polyhedron_truncated_20_max.png"/>
+        <img src=".img/Polyhedron_truncated_20_max.png"/>
       </a>
     </td>
     <td>
       <a href="https://commons.wikimedia.org/wiki/File:Polyhedron_truncated_20_dual_max.png">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Polyhedron_truncated_20_dual_max.png/461px-Polyhedron_truncated_20_dual_max.png"/>
+        <img src=".img/Polyhedron_truncated_20_dual_max.png"/>
       </a>
     </td>
     <td>
       <a href="https://commons.wikimedia.org/wiki/File:Dual_compound_truncated_20_max.png">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Dual_compound_truncated_20_max.png/467px-Dual_compound_truncated_20_max.png"/>
+        <img src=".img/Dual_compound_truncated_20_max.png"/>
       </a>
     </td>
   </tr>
@@ -118,14 +118,14 @@ Examples for the [truncated cuboctahedron](https://en.wikipedia.org/wiki/Truncat
   <tr>
     <td width="25%">
         <a href="https://commons.wikimedia.org/wiki/File:Truncated_cuboctahedron,_ball-and-stick,_triangles.png">
-            <img src="http://paste.watchduck.net/1804/ball-and-stick_truncuboct_triangles.png"/>
+            <img src=".img/ball-and-stick_truncuboct_triangles.png"/>
         </a>
     <td width="25%">
         <a href="https://commons.wikimedia.org/wiki/File:Truncated_cuboctahedron,_ball-and-stick.png">
-            <img src="http://paste.watchduck.net/1804/ball-and-stick_truncuboct.png"/>
+            <img src=".img/ball-and-stick_truncuboct.png"/>
         </a>
-    <td width="25%"><img src="http://paste.watchduck.net/1804/console_truncuboct.png"/>
-    <td width="25%"><img src="http://paste.watchduck.net/1804/davinci_truncuboct.png"/>
+    <td width="25%"><img src=".img/console_truncuboct.png"/>
+    <td width="25%"><img src=".img/davinci_truncuboct.png"/>
   <tr>
     <td colspan="2">
       Before
@@ -145,7 +145,7 @@ For many polyhedra the coordinates along with some radii are found in
 ## Subprojects
 
 <a href="https://commons.wikimedia.org/wiki/File:Subgroup_of_Oh;_V_yellow_white_07;_solid.png">
-  <img align="right" width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Subgroup_of_Oh%3B_V_yellow_white_07%3B_solid.png/480px-Subgroup_of_Oh%3B_V_yellow_white_07%3B_solid.png"/>
+  <img align="right" width="200px" src=".img/Subgroup_of_Oh;_V_yellow_white_07;_solid.png"/>
 </a>
 
 ### 1. Full octahedral group
@@ -162,7 +162,7 @@ that do not contain the origin. But the code to do that has been removed.
 So has the code that handled polyhedra degenerated to single edges.
 
 <a href="https://commons.wikimedia.org/wiki/File:Polyhedron_great_rhombi_6-8_max.png">
-  <img align="right" width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Polyhedron_great_rhombi_6-8_max.png/488px-Polyhedron_great_rhombi_6-8_max.png"/>
+  <img align="right" width="200px" src=".img/Polyhedron_great_rhombi_6-8_max.png/488px-Polyhedron_great_rhombi_6-8_max.png"/>
 </a>
 
 ### 2. Direction colors
@@ -206,7 +206,7 @@ The finished POV-Ray files are in
 <code>2b_colors_png/<a href="https://github.com/watchduck/convex_polyhedra/tree/master/2b_colors_png/finished_pov">finished_pov</a></code>.
 
 <a href="https://commons.wikimedia.org/wiki/File:Polyhedron_great_rhombi_6-8,_davinci.png">
-  <img align="right" width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Polyhedron_great_rhombi_6-8%2C_davinci.png/485px-Polyhedron_great_rhombi_6-8%2C_davinci.png"/>
+  <img align="right" width="200px" src=".img/Polyhedron_great_rhombi_6-8,_davinci.png"/>
 </a>
 
 ### 3. Da Vinci solids
@@ -238,11 +238,11 @@ when the coordinates are in lexicographical order. This is the index in the POV-
 In
 [`4_dual_compounds`](https://github.com/watchduck/convex_polyhedra/tree/master/4_dual_compounds)
 images like
-[this](https://upload.wikimedia.org/wikipedia/commons/1/19/Dual_compound_great_rhombi_6-8_max.png)
+[this](https://commons.wikimedia.org/wiki/File:Dual_compound_great_rhombi_6-8_max.png)
 have been created. The dual polyhedra have the same midsphere.
 
 <a href="https://commons.wikimedia.org/wiki/File:Small_in_great_rhombi_6-8,_davinci.png">
-  <img align="right" width="200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Small_in_great_rhombi_6-8%2C_davinci.png/486px-Small_in_great_rhombi_6-8%2C_davinci.png"/>
+  <img align="right" width="200px" src=".img/Small_in_great_rhombi_6-8,_davinci.png/486px-Small_in_great_rhombi_6-8,_davinci.png"/>
 </a>
 
 ### Small in great rhombi
