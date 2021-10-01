@@ -162,7 +162,7 @@ that do not contain the origin. But the code to do that has been removed.
 So has the code that handled polyhedra degenerated to single edges.
 
 <a href="https://commons.wikimedia.org/wiki/File:Polyhedron_great_rhombi_6-8_max.png">
-  <img align="right" width="200px" src=".img/Polyhedron_great_rhombi_6-8_max.png/488px-Polyhedron_great_rhombi_6-8_max.png"/>
+  <img align="right" width="200px" src=".img/Polyhedron_great_rhombi_6-8_max.png"/>
 </a>
 
 ### 2. Direction colors
@@ -242,7 +242,7 @@ images like
 have been created. The dual polyhedra have the same midsphere.
 
 <a href="https://commons.wikimedia.org/wiki/File:Small_in_great_rhombi_6-8,_davinci.png">
-  <img align="right" width="200px" src=".img/Small_in_great_rhombi_6-8,_davinci.png/486px-Small_in_great_rhombi_6-8,_davinci.png"/>
+  <img align="right" width="200px" src=".img/Small_in_great_rhombi_6-8,_davinci.png"/>
 </a>
 
 ### Small in great rhombi
