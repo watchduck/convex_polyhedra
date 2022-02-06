@@ -12,9 +12,9 @@ global_settings { assumed_gamma 1.0 }
 
 ///////////////////////////// camera and light
 
-//#declare Camera_Position = <13.2, 10.5, -45>;              // view from up right (perspective)
+#declare Camera_Position = <13.2, 10.5, -45>;              // view from up right (perspective)
 
-#declare Camera_Position = vnormalize(<0, 0, -1>) * 42;    // view from front (orthographic)
+//#declare Camera_Position = vnormalize(<0, 0, -1>) * 42;    // view from front (orthographic)
 
 camera{
     //orthographic
